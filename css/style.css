@@ -1,3 +1,11 @@
+body{
+  font-family: "Roboto", "Arial" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
 /* HEADER */
 header{
   background-color: #fff;
@@ -8,23 +16,20 @@ header{
 }
 
 .sitenav{
-  color: #000;
-  font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
+  color: #000;
 }
 
 .main-button{
   background-color: #ff7500;
-  font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 15px;
-  letter-spacing: 0.5px;
   text-decoration: none;
   color: #fff;
 }
@@ -32,8 +37,8 @@ header{
 
 /* HERO */
 .hero{
-background-color: #252420;
-color: #FFFFFF;
+  background-color: #252420;
+  color: #FFFFFF;
 }
 
 .hero-content{
@@ -44,32 +49,20 @@ color: #FFFFFF;
   width: 80px;
   height: 3px;
   background-color: #ff7500;
-  }
-
-.hero-heading{
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.5px;
 }
 
-.hero-text{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+.hero-heading{
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 
 /* FEATURES */
 .features-heading{
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   color: #000;
 }
 
@@ -84,28 +77,21 @@ letter-spacing: 0.5px;
 }
 
 .feature-title{
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 1.2;
-letter-spacing: 0.5px;
-color: #000;
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #000;
 }
 
 .feature-text{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.5px;
-color: #000;
+  color: #000;
 }
 
 
 /* DISCOUNT */
 .discount{
   background-color: #252420;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .discount-content{
@@ -113,23 +99,13 @@ color: #FFFFFF;
 }
 
 .discount-heading{
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 1.2;
-letter-spacing: 0.5px;
-}
-
-.discount-text{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 .discount-highlight{
-color: #ff7500;
+  color: #ff7500;
 }
 
 .site-footer{
@@ -151,9 +127,6 @@ color: #ff7500;
 }
 
 .site-footer a{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
   color: #252420;
   text-decoration: none;
