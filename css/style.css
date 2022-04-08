@@ -9,10 +9,20 @@ body{
 /* HEADER */
 header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-links{
+  display: flex;
+  align-items: center;
 }
 
 .sitenav-links{
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sitenav{
@@ -39,6 +49,9 @@ header{
 .hero{
   background-color: #252420;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hero-content{
@@ -59,11 +72,18 @@ header{
 
 
 /* FEATURES */
+
 .features-heading{
   font-family: "Roboto Condensed", "Roboto", sans-serif;
   font-size: 72px;
   line-height: 1.2;
   color: #000;
+}
+
+.features-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
 }
 
 .feature{
@@ -92,6 +112,9 @@ header{
 .discount{
   background-color: #252420;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .discount-content{
@@ -108,8 +131,18 @@ header{
   color: #ff7500;
 }
 
+ /* SITE FOOTER */
 .site-footer{
   background-color: #F8F8F8;
+}
+
+.site-footer-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer-contacts{
+  display: flex;
 }
 
 .site-footer ul{
@@ -120,6 +153,11 @@ header{
   width: 1100px;
   height: 2px;
   background-color: #000;
+}
+
+.site-footer-low{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .site-footer-links{
