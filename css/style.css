@@ -6,6 +6,11 @@ body{
   letter-spacing: 0.5px;
 }
 
+*:focus{
+outline: 2px dotted #FF7500;
+outline-offset: 3px;
+}
+
 /* HEADER */
 header{
   background-color: #fff;
@@ -15,15 +20,15 @@ header{
 }
 
 .logo-link{
-  transition: 5s ease;
+  transition: opacity 0.4s ease;
 }
 
 .logo-link:hover{
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .logo-link:active{
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 .header-links{
@@ -219,6 +224,6 @@ header{
   filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
   }
 
-  .site-footer-links a:focus{
+  .site-footer-links a:active{
     opacity: 0.6;
   }
