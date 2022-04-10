@@ -14,6 +14,18 @@ header{
   justify-content: space-around;
 }
 
+.logo-link{
+  transition: 5s ease;
+}
+
+.logo-link:hover{
+  opacity: 0.6;
+}
+
+.logo-link:active{
+  opacity: 0.2;
+}
+
 .header-links{
   display: flex;
   align-items: center;
@@ -25,6 +37,7 @@ header{
   justify-content: space-between;
 }
 
+
 .sitenav{
   font-weight: 500;
   font-size: 13px;
@@ -33,6 +46,16 @@ header{
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+          opacity 0.4s ease;
+}
+
+.sitenav:hover{
+  color: #FF7500;
+}
+
+.sitenav:active{
+  opacity: 0.6;
 }
 
 .main-button{
@@ -42,8 +65,16 @@ header{
   line-height: 15px;
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.4s ease;
 }
 
+.main-button:hover{
+  opacity: 0.8;
+}
+
+.main-button:active{
+  opacity: 0.6;
+}
 
 /* HERO */
 .hero{
@@ -141,8 +172,20 @@ header{
   justify-content: space-between;
 }
 
-.site-footer-contacts{
+.site-footer-socialmedias{
   display: flex;
+}
+
+.site-footer-socialmedias a{
+  color: #252420;
+}
+
+.site-footer-socialmedias a:hover{
+  color: #FF7500;
+}
+
+.site-footer-socialmedias a:active{
+  opacity: 0.6;
 }
 
 .site-footer ul{
@@ -162,10 +205,20 @@ header{
 
 .site-footer-links{
   width: 224px;
+  line-height: 19px;
 }
 
-.site-footer a{
-  line-height: 19px;
+
+.site-footer-links a{
   color: #252420;
   text-decoration: none;
 }
+
+.site-footer-links a:hover{
+  color: #FF7500;
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  }
+
+  .site-footer-links a:focus{
+    opacity: 0.6;
+  }
