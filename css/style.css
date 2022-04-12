@@ -1,9 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: "Roboto", "Arial" sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
 }
 
 *:focus{
@@ -11,12 +17,25 @@ outline: 2px dotted #FF7500;
 outline-offset: 3px;
 }
 
-/* HEADER */
-header{
-  background-color: #fff;
+/* CONTAINER */
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.site-header-container{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+/* HEADER */
+header{
+  background-color: #fff;
   border-top: 5px solid #FF7500;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -105,6 +124,9 @@ header{
 .hero{
   background-color: #252420;
   color: #FFFFFF;
+}
+
+.hero-container{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -116,6 +138,7 @@ header{
 
 .hero img{
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 .orange-line{
@@ -142,11 +165,6 @@ header{
 
 
 /* FEATURES */
-.features{
-  padding-top: 210px;
-  padding-bottom: 210px;
-}
-
 
 .features-heading{
   font-family: "Roboto Condensed", "Roboto", sans-serif;
@@ -193,10 +211,16 @@ header{
 
 .feature-text{
   color: #000;
+  margin: 0;
 }
 
 
 /* DISCOUNT */
+.discount-container{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
 .discount{
   background-color: #252420;
   color: #FFFFFF;
