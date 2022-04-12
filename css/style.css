@@ -44,6 +44,16 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.sitenav-item{
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child{
+  margin-right: 0;
 }
 
 
@@ -109,12 +119,21 @@ header{
   height: 3px;
   background-color: #ff7500;
   border: opx;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .hero-heading{
   font-family: "Roboto Condensed", "Roboto", sans-serif;
   font-size: 40px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 
@@ -128,6 +147,9 @@ header{
 .features-heading{
   font-family: "Roboto Condensed", "Roboto", sans-serif;
   font-size: 72px;
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 68px;
   line-height: 1.2;
   color: #000;
 }
@@ -135,12 +157,17 @@ header{
 .features-list{
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
   padding: 0;
+  margin: 0;
 }
 
 .feature{
   width: 340px;
+  margin-right: 40px;
+}
+
+.feature:last-child{
+  margin-right: 0;
 }
 
 .feature-icon-wrapper{
@@ -187,6 +214,22 @@ header{
   font-family: "Roboto Condensed", "Roboto", sans-serif;
   font-size: 40px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.discount-info-wrapper{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.discount-text{
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.discount-text:last-child{
+  margin-bottom: 0;
 }
 
 .discount-highlight{
@@ -205,11 +248,22 @@ header{
 
 .site-footer-socialmedias{
   display: flex;
+  align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.site-footer-socialmedias li{
+margin-right: 16px;
+}
+
+.site-footer-socialmedias li:last-child{
+  margin-right: 0;
 }
 
 .site-footer-socialmedias a{
   color: #252420;
+  display: block;
 }
 
 .site-footer-socialmedias a:hover{
@@ -218,6 +272,10 @@ header{
 
 .site-footer-socialmedias a:active{
   opacity: 0.6;
+}
+
+.site-footer-socialmedias svg{
+  display: block;
 }
 
 .site-footer ul{
@@ -230,6 +288,8 @@ header{
   height: 2px;
   background-color: #000;
   border: opx;
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .site-footer-low{
@@ -241,7 +301,12 @@ header{
   width: 224px;
   line-height: 19px;
   padding: 0;
+  margin: 0;
+  margin-right: 68px;
+}
 
+.site-footer-links:last-child{
+  margin-right: 0;
 }
 
 
