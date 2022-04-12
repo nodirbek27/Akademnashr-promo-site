@@ -34,6 +34,10 @@ header{
   opacity: 0.6;
 }
 
+.logo-link img{
+  display: block;
+}
+
 .header-links{
   display: flex;
   align-items: center;
