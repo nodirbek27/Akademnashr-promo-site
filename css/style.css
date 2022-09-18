@@ -1,19 +1,38 @@
-*{
+:root {
+  --accent-color: #FF7500;
+
+  --text-font: "Roboto", "Arial" sans-serif;
+  --heading-font: "Roboto Condensed", "Roboto", sans-serif;
+}
+
+html {
   box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body{
-  font-family: "Roboto", "Arial" sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: var(--text-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  color: #000;
   margin: 0;
   padding: 0;
 }
 
 *:focus{
-  outline: 2px dotted #FF7500;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -36,7 +55,7 @@ body{
 /* HEADER */
 header{
   background-color: #fff;
-  border-top: 5px solid #FF7500;
+  border-top: 5px solid var(--accent-color);
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -93,7 +112,7 @@ header{
 }
 
 .sitenav:hover{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .sitenav:active{
@@ -101,7 +120,7 @@ header{
 }
 
 .main-button{
-  background-color: #ff7500;
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 13px;
   line-height: 15px;
@@ -144,14 +163,14 @@ header{
 .orange-line{
   width: 80px;
   height: 3px;
-  background-color: #ff7500;
+  background-color: var(--accent-color);
   border: opx;
   margin: 0;
   margin-bottom: 40px;
 }
 
 .hero-heading{
-  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-family: var(--heading-font);
   font-size: 40px;
   line-height: 1.2;
   margin-top: 0;
@@ -167,7 +186,7 @@ header{
 /* FEATURES */
 
 .features-heading{
-  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-family: var(--heading-font);
   font-size: 72px;
   width: 440px;
   margin-top: 0;
@@ -203,7 +222,7 @@ header{
 }
 
 .feature-title{
-  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-family: var(--heading-font);
   font-size: 24px;
   line-height: 1.2;
   color: #000;
@@ -239,7 +258,7 @@ header{
 }
 
 .discount-heading{
-  font-family: "Roboto Condensed", "Roboto", sans-serif;
+  font-family: var(--heading-font);
   font-size: 40px;
   line-height: 1.2;
   margin-top: 0;
@@ -261,7 +280,7 @@ header{
 }
 
 .discount-highlight{
-  color: #ff7500;
+  color: var(--accent-color);
 }
 
  /* SITE FOOTER */
@@ -295,7 +314,7 @@ margin-right: 16px;
 }
 
 .site-footer-socialmedias a:hover{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .site-footer-socialmedias a:active{
@@ -344,7 +363,7 @@ margin-right: 16px;
 }
 
 .site-footer-links a:hover{
-  color: #FF7500;
+  color: var(--accent-color);
   filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
   }
 
